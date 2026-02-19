@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram } from "lucide-react";
 import { COMPANY, NAV_LINKS, SERVICE_CATEGORIES } from "@/lib/constants";
 
 export default function Footer() {
@@ -55,6 +55,15 @@ export default function Footer() {
                 <MapPin className="w-4 h-4 text-saffron shrink-0" />
                 {COMPANY.address}
               </p>
+              <a
+                href={COMPANY.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-sm hover:text-white transition-colors"
+              >
+                <Instagram className="w-4 h-4 text-saffron" />
+                Follow us on Instagram
+              </a>
             </div>
           </div>
 

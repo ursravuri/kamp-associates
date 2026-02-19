@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Instagram } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 import { COMPANY } from "@/lib/constants";
 
@@ -102,6 +102,25 @@ export default function ContactPage() {
                       Monday – Saturday: 10:00 AM – 7:00 PM
                     </p>
                     <p className="text-sm text-gray-500">Sunday: Closed</p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="w-11 h-11 rounded-lg bg-saffron/10 flex items-center justify-center shrink-0">
+                    <Instagram className="w-5 h-5 text-saffron" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-medium text-gray-800 mb-1">
+                      Instagram
+                    </p>
+                    <a
+                      href={COMPANY.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-gray-500 hover:text-navy transition-colors"
+                    >
+                      @kamp__ca
+                    </a>
                   </div>
                 </div>
               </div>

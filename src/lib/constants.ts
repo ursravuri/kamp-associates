@@ -5,6 +5,7 @@ export const COMPANY = {
   phone: ["+91 8985555081", "+91 9553310208"],
   email: "info.kampca@gmail.com",
   address: "Hyderabad, Telangana, India",
+  instagram: "https://www.instagram.com/kamp__ca/",
 };
 
 export const NAV_LINKS = [
