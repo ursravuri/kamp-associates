@@ -4,7 +4,7 @@ export const COMPANY = {
   fullName: "KAMP & Associates — Chartered Accountants",
   phone: ["+91 8985555081", "+91 9553310208"],
   email: "info.kampca@gmail.com",
-  address: "Hyderabad, Telangana, India",
+  address: "Amaravati, Andhra Pradesh, India",
   instagram: "https://www.instagram.com/kamp__ca/",
 };
 
