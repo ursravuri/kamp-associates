@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <!-- Top arc for "KAMP & Associates" -->
+    <path id="topArc" d="M 32,200 a 168,168 0 0,1 336,0" fill="none"/>
+    <!-- Bottom arc for "Chartered Accountants" -->
+    <path id="bottomArc" d="M 368,200 a 168,168 0 0,1 -336,0" fill="none"/>
+  </defs>
+
+  <!-- White background -->
+  <circle cx="200" cy="200" r="198" fill="white"/>
+
+  <!-- Outer ring -->
+  <circle cx="200" cy="200" r="194" fill="none" stroke="#1B3A5C" stroke-width="2.5"/>
+
+  <!-- Inner ring -->
+  <circle cx="200" cy="200" r="148" fill="none" stroke="#1B3A5C" stroke-width="2"/>
+
+  <!-- Top curved text: KAMP & Associates -->
+  <text font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="19" fill="#1B3A5C" letter-spacing="5">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">KAMP &amp; Associates</textPath>
+  </text>
+
+  <!-- Bottom curved text: Chartered Accountants -->
+  <text font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="19" fill="#1B3A5C" letter-spacing="3.5">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">Chartered Accountants</textPath>
+  </text>
+
+  <!-- ===== CA INDIA LOGO CENTER ===== -->
+  <g transform="translate(200,195)">
+    <!-- Letter C -->
+    <path d="M -5,-58 C -45,-58 -72,-32 -72,5 C -72,42 -45,65 -10,65 C 5,65 15,60 22,52"
+          fill="none" stroke="#1B3A5C" stroke-width="16" stroke-linecap="round"/>
+
+    <!-- Letter A - left leg -->
+    <path d="M 0,-62 L -18,52" fill="none" stroke="#1B3A5C" stroke-width="12" stroke-linecap="butt"/>
+
+    <!-- Letter A - right leg (thin) -->
+    <path d="M 0,-62 L 55,52" fill="none" stroke="#1B3A5C" stroke-width="4" stroke-linecap="butt"/>
+
+    <!-- Tricolor flag stripes inside the A -->
+    <!-- Saffron -->
+    <polygon points="12,-12 62,-12 56,0 10,0" fill="#E87722"/>
+    <!-- White -->
+    <polygon points="10,0 56,0 50,12 8,12" fill="#F0F0F0"/>
+    <!-- Green -->
+    <polygon points="8,12 50,12 44,24 6,24" fill="#138808"/>
+
+    <!-- INDIA text -->
+    <text x="2" y="92" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="26" fill="#1B3A5C" letter-spacing="5">INDIA</text>
+  </g>
+</svg>
