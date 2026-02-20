@@ -32,3 +32,32 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* Accessibility: respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Glow effects */
+.glow-saffron {
+  box-shadow: 0 0 20px rgba(232, 119, 34, 0.25);
+}
+
+.glow-navy {
+  box-shadow: 0 0 20px rgba(27, 58, 92, 0.25);
+}
