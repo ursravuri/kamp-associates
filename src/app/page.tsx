@@ -124,7 +124,7 @@ export default function HomePage() {
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
               >
                 <Image
-                  src="/kamp-logo.png"
+                  src="/kamp-logo.svg"
                   alt="KAMP & Associates — Chartered Accountants"
                   width={846}
                   height={846}

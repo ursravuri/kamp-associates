@@ -12,7 +12,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <Image
-                src="/kamp-logo.png"
+                src="/kamp-logo.svg"
                 alt="KAMP & Associates Logo"
                 width={400}
                 height={400}

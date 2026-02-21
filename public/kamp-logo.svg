@@ -15,14 +15,14 @@
   <!-- Inner ring -->
   <circle cx="200" cy="200" r="148" fill="none" stroke="#1B3A5C" stroke-width="2"/>
 
-  <!-- Top curved text: KAMP & Associates -->
-  <text font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="19" fill="#1B3A5C" letter-spacing="5">
-    <textPath href="#topArc" startOffset="50%" text-anchor="middle">KAMP &amp; Associates</textPath>
+  <!-- Top curved text: KAMP & ASSOCIATES -->
+  <text font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#1B3A5C" letter-spacing="3">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">KAMP &amp; ASSOCIATES</textPath>
   </text>
 
-  <!-- Bottom curved text: Chartered Accountants -->
-  <text font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="19" fill="#1B3A5C" letter-spacing="3.5">
-    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">Chartered Accountants</textPath>
+  <!-- Bottom curved text: CHARTERED ACCOUNTANTS -->
+  <text font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1B3A5C" letter-spacing="2.5">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">CHARTERED ACCOUNTANTS</textPath>
   </text>
 
   <!-- ===== CA INDIA LOGO CENTER ===== -->
@@ -41,7 +41,7 @@
     <!-- Saffron -->
     <polygon points="12,-12 62,-12 56,0 10,0" fill="#E87722"/>
     <!-- White -->
-    <polygon points="10,0 56,0 50,12 8,12" fill="#F0F0F0"/>
+    <polygon points="10,0 56,0 50,12 8,12" fill="#FFFFFF"/>
     <!-- Green -->
     <polygon points="8,12 50,12 44,24 6,24" fill="#138808"/>
 
